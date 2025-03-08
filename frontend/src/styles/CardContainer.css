@@ -1,0 +1,35 @@
+.outer-card {
+    width: calc(18rem + 2rem);
+    margin: 0 auto;
+    align-items: flex-start; 
+    position: relative; 
+    flex-direction: column;
+}
+
+.card-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 200px; 
+}
+
+.card-container.over {
+    background-color: #f0f0f0;
+}
+
+
+.card-container:empty {
+    min-height: 400px; 
+}
+
+@media (max-width: 768px) {
+    .outer-card {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .card-container {
+        padding: 5px;
+    }
+}

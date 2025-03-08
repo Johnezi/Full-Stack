@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: table-row;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  touch-action: manipulation;
+
+}
+
+.main-content {
+  padding-top: 80px; 
+  box-sizing: border-box;
+  flex: 1; 
+}
+@media (max-width: 768px) {
+  .body {
+    display: table-row;
+    flex-wrap: nowrap;
+  }
+
+}

@@ -1,0 +1,67 @@
+.navbar-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #333 !important; 
+  padding: 10px 20px;
+  z-index: 1000;
+  box-sizing: border-box; /* Ensure padding does not affect width */
+}
+
+.navbar-custom .container {
+  width: 100%; /* Ensure the container spans the full width */
+  display: flex;
+  justify-content: space-between; /* Distribute elements evenly */
+  align-items: center;
+}
+
+.nav-ul-list-custom {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1; /* Allow the list to grow */
+}
+
+.nav-link-custom {
+  color: white !important;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.nav-link-custom:hover {
+  background-color: #555 !important; 
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .navbar-custom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-ul-list-custom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-link-custom {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+  }
+
+  .nav-link-custom:hover {
+    background-color: #555 !important; 
+    border-radius: 0;
+  }
+}
+
+.main-content {
+  padding-top: 80px; 
+}

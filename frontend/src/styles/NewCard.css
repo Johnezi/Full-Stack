@@ -1,0 +1,80 @@
+.header {
+  background-color: wheat;
+}
+
+.btnAdd {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px;
+}
+
+.input-tags {
+  padding: 8px;
+}
+
+.input-version {
+  padding: 8px;
+}
+
+.select-color {
+  color: slategray;
+  padding: 8px;
+}
+
+.listgroup-item {
+  background-color: rgb(196, 196, 196);
+}
+
+.option-red {
+  background-color: red;
+  color: white;
+}
+
+.option-blue {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.option-green {
+  background-color: forestgreen;
+  color: white;
+}
+
+.option-yellow {
+  background-color: goldenrod;
+  color: white;
+}
+
+.option-orange {
+  background-color: orange;
+  color: white;
+}
+
+.option-grey {
+  background-color: dimgrey;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .new-card {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .btnAdd {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .input-tags,
+  .input-version,
+  .select-color {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+

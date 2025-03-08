@@ -1,0 +1,31 @@
+.card-container-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  
+}
+
+
+.container-wrapper {
+  opacity: 1;
+}
+
+.container-wrapper.dragging {
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  .card-container-grid {
+    display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  
+  }
+
+  .container-wrapper {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
